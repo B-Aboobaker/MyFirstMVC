@@ -36,7 +36,7 @@ explanation. Use your design for the look and feel of the page. This information
 should be displayed once the Favorite button is clicked. 
 Screenshot of the Output:
 <br><br>  <img src="assets/images/MFMVC3a.png" alt="MyFirstMVC image 3a">
-<img src="assets/images/MFMVC3b.png" alt="MyFirstMVC image 3b">
+<br>  <img src="assets/images/MFMVC3b.png" alt="MyFirstMVC image 3b" width="605px">
 
 
 2. About us: Include a brief explanation of your comic business. This information 
@@ -50,8 +50,8 @@ new comic’s release. This information should be displayed once the Latest News
 button is clicked.  
 Screenshot of the Output: 
 <br><br>  <img src="assets/images/MFMVC5a.png" alt="MyFirstMVC image 5a">
-<img src="assets/images/MFMVC5b.png" alt="MyFirstMVC image 5b">
-<img src="assets/images/MFMVC5c.png" alt="MyFirstMVC image 5c">
+<br>  <img src="assets/images/MFMVC5b.png" alt="MyFirstMVC image 5b" width="605px">
+<br>  <img src="assets/images/MFMVC5c.png" alt="MyFirstMVC image 5c">
 
 
 When you click on one of the ‘Learn More’ buttons, it will redirect you to an external page:
