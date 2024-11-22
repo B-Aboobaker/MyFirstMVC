@@ -37,6 +37,7 @@ should be displayed once the Favorite button is clicked.
 Screenshot of the Output:
 <br><br>  <img src="assets/images/MFMVC3a.png" alt="MyFirstMVC image 3a">
 <br>  <img src="assets/images/MFMVC3b.png" alt="MyFirstMVC image 3b" width="605px">
+<br>  <img src="assets/images/MFMVC3c.png" alt="MyFirstMVC image 3c" width="605px">
 
 
 2. About us: Include a brief explanation of your comic business. This information 
