@@ -1,0 +1,98 @@
+﻿@{
+    ViewBag.Title = "Favourites";
+}
+
+<main aria-labelledby="title">
+    <h2 id="title">@ViewBag.Title</h2>
+    <h3>@ViewBag.Message</h3>
+    <style>
+        .item {
+            padding: 20px;
+            align-items: center;
+            width: 48%;
+            
+            justify-content: center;
+            margin-left: auto;
+            margin-right: auto;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+            border-radius: 16px;
+            margin-bottom: 30px;
+            background-color: #F5F5F5;
+        }
+
+        img {
+            height: 425px;
+            width: auto;
+            padding: 6px;
+        }
+
+        p {
+            margin-top: 20px;
+        }
+
+        .item:hover {
+            transform: scale(1.02);
+            transition: all .5s ease-in-out;
+        }
+
+        .item:not(:hover) {
+            transition: all .5s ease-in-out;
+        }
+    </style>
+
+    <p style="margin-top: 0px;">Some of my Favourite Comic Books of all time:</p>
+
+    <div class="row" style="margin-top: 26px;">
+        <div class="item">
+            <h3 id="hostingTitle">Batman: The Dark Knight Returns</h3>
+
+            <img src="~/Content/Images/favouriteComic4.jpg" alt="favouriteComic1">
+
+            <p>
+                The iconic series continues as a new Robin debuts and a gang of violent mutants
+                stakes a claim on the streets of Gotham City. Unfortunately for them, the Dark
+                Knight is about to prove that these streets are his, and he has a battle tank of
+                a Batmobile to back him up!
+            </p>
+        </div>
+
+        <div class="item">
+            <h3 id="hostingTitle">The Amazing X-Men</h3>
+
+            <img src="~/Content/Images/favouriteComic3.jpg" alt="favouriteComic2">
+
+            <p>
+                The X-Men battle Apocalypse' Brotherhood and his new and deadly horseman, Abyss,
+                to aid the human refugees in escaping to Eurasia; Apocalypse tortures Karma and
+                learns the location of Magneto.
+            </p>
+        </div>
+    </div>
+
+    <div class="row" style="margin-bottom: -4px;">
+        <div class="item">
+            <h3 id="hostingTitle">Blue Beetle</h3>
+
+            <img src="~/Content/Images/favouriteComic1.jpg" alt="favouriteComic3">
+
+            <p>
+                The final showdown between the original Blue Beetle and the new Blue Beetle.
+                Dan Garrett finally overcomes the hold the mystic scarab has on him and,
+                in battling the scarab, gives his life a second time to stop the scarab.
+            </p>
+        </div>
+
+        <div class="item">
+            <h3 id="hostingTitle">Fantastic Four</h3>
+
+            <img src="~/Content/Images/favouriteComic2.jpg" alt="favouriteComic4">
+
+            <p>
+                When the FF tracked a mysterious saboteur to Revelation, New Mexico, they
+                found a lot more than they bargained for, including a race of hyper-powerful
+                world-ravaging aliens! Scattered throughout space and time, the Fantastic Four
+                must reunite in order to stop the Obliterator Mothership from earning its deadly name!
+            </p>
+        </div>
+    </div>
+</main>

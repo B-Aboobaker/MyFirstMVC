@@ -1,0 +1,102 @@
+﻿@{
+    ViewBag.Title = "Latest News";
+}
+<main aria-labelledby="title">
+    <h2 id="title">@ViewBag.Title</h2>
+    <h3>@ViewBag.Message</h3>
+    <style type="text/css">
+        a.btn.btn-outline-dark:hover {
+            background-color: forestgreen;
+            color: whitesmoke;
+            transition: all .4s ease-in-out;
+        }
+
+        a.btn.btn-outline-dark:not(:hover) {
+            transition: all .4s ease-in-out;
+        }
+
+        img {
+            width: auto;
+            height: 400px;
+        }
+
+        .row {
+            padding: 24px;
+            align-items: center;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-left: auto;
+            margin-right: auto;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+            border-radius: 20px;
+            margin-bottom: 30px;
+            background-color: #F5F5F5;
+        }
+
+        .row:hover {
+            transform: scale(1.02);
+            transition: all .5s ease-in-out;
+        }
+
+        .row:not(:hover) {
+            transition: all .5s ease-in-out;
+        }
+
+    </style>
+
+    <section class="rowh" aria-labelledby="aspnetTitle" style="margin-bottom:20px;">
+        <p>Information on the new Comic releases:</p>
+    </section>
+
+    <div class="row" style="margin-top:26px;">
+        <section class="col-md-4" aria-labelledby="gettingStartedTitle">
+            <h2 id="gettingStartedTitle">Deadpool</h2>
+            <p>
+                VALENTINE’S DAY! Love is in the air as Deadpool takes his new romance,
+                Valentine, out on the town! Unfortunately, bullets, blades and explosive
+                devices are also in the air since both of them have enemies who want them DEAD.
+            </p>
+            <p><a class="btn btn-outline-dark" href="https://goldenapplecomics.com/products/75960620089400641" target="_blank">Learn more &raquo;</a></p>
+        </section>
+
+        <section class="col-md-4" aria-labelledby="gettingStartedTitle">
+            <img src="~/Content/Images/latestNewsComic3.jpg" alt="latestNewsComic1">
+        </section>
+    </div>
+
+    <div class="row">
+        <section class="col-md-4" aria-labelledby="librariesTitle">
+            <h2 id="librariesTitle">The Invincible Iron Man</h2>
+            <p>
+                THE AUTOBIOGRAPHY OF TONY STARK, CHAPTER FIVE<br />
+                Tony Stark is at the end of his ropes, so for support, he
+                turns to…Emma Frost?! Will she help Tony overcome the attacks
+                from his new foe, Feilong? Or will the White Queen leave Tony
+                frozen in his tracks?
+            </p>
+            <p><a class="btn btn-outline-dark" href="https://www.superherohype.com/comics/532476-exclusive-preview-the-invincible-iron-man-5" target="_blank">Learn more &raquo;</a></p>
+        </section>
+
+        <section class="col-md-4" aria-labelledby="gettingStartedTitle">
+            <img src="~/Content/Images/latestNewsComic2.jpg" alt="latestNewsComic2">
+        </section>
+    </div>
+
+    <div class="row" style="margin-bottom:36px;">
+        <section class="col-md-4" aria-labelledby="hostingTitle">
+            <h2 id="hostingTitle">Tim Drake: Robin</h2>
+            <p>
+                Who's ready for a Bat-team-up for the ages? Batwoman shows
+                up at the Gotham Marina with a mystery only the world's
+                best Robin could solve. Together, Robin and Batwoman will
+                help each other…or die trying.
+            </p>
+            <p><a class="btn btn-outline-dark" href="https://aiptcomics.com/2023/04/21/dc-preview-tim-drake-robin-8/" target="_blank">Learn more &raquo;</a></p>
+        </section>
+
+        <section class="col-md-4" aria-labelledby="gettingStartedTitle">
+            <img src="~/Content/Images/latestNewsComic1.jpg" alt="latestNewsComic3">
+        </section>
+    </div>
+</main>

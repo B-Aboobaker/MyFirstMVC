@@ -1,0 +1,32 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<style>
+    img {
+        margin-bottom: 8px;
+        border-radius: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    img:hover {
+        transform: scale(1.005);
+        transition: all .5s ease-in-out;
+    }
+
+    img:not(:hover) {
+        transition: all .5s ease-in-out;
+    }
+</style>
+
+
+<main>
+    <section class="row" aria-labelledby="aspnetTitle">
+        <h2 id="title">Home</h2>
+    </section>
+</main>
+
+<div class="row">
+    <img src="~/Content/Images/ComicWallpaper.jpg" alt="Home page image" style="width: auto; height: 522px;">
+</div>

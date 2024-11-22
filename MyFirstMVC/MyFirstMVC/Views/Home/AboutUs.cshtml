@@ -1,0 +1,76 @@
+﻿@{
+    ViewBag.Title = "About Us";
+}
+<main aria-labelledby="title">
+    <h2 id="title">@ViewBag.Title</h2>
+    <h3>@ViewBag.Message</h3>
+    <style>
+        section:hover {
+            transform: scale(1.09);
+            transition: all .5s ease-in-out;
+        }
+
+        section:not(:hover) {
+            transition: all .4s ease-in-out;
+        }
+
+        .logos img {
+            width: 275px;
+            width: 143px;
+            padding: 10px;
+            margin-right: 50px;
+        }
+
+        .logos img:hover {
+            transform: scale(1.1);
+            transition: all .5s ease-in-out;
+        }
+
+        .logos img:not(:hover) {
+            transition: all .4s ease-in-out;
+        }
+    </style>
+
+    <div style="margin-top: 20px; margin-bottom:10px">
+        <h4>Welcome to Comics Online</h4>
+    </div>
+
+    <div class="logos" style="margin-left: 30px;">
+        <img src="~/Content/Images/Disney_wordmark.svg.png" alt="Logo1">
+        <img src="~/Content/Images/Batman-Logo.png" alt="Logo2">
+        <img src="~/Content/Images/dclogo.png" alt="Logo3">
+        <img src="~/Content/Images/png-transparent-superman-logo-clark-kent-general-zod-jor-el-superman-s-text-heart-logo.png" alt="Logo4" style="padding: 25px">
+        <img src="~/Content/Images/marvel-comics-logo-31D9B4C7FB-seeklogo.com.png" alt="Logo5">
+    </div>
+
+    <div class="row" style="margin-top: 15px; padding-left: 50px; padding-right: 50px; padding-bottom: 24px; -webkit-transition: all .5s ease-in-out;">
+        <section class="col-md-4" aria-labelledby="librariesTitle" style="margin-left: auto; margin-right: auto; padding-top: 26px; box-shadow: 8px 8px 8px black; background-color: forestgreen; color: whitesmoke; width: 40%; border-radius:10px;">
+            <p>
+                <br />
+                Aboobaker Started Comics Online in 2008 and even
+                though many people didn't believe the online shop
+                would last, it still stands today, 15 years later, and is
+                the one of the biggest Online Comic Book Shops! When
+                Comics Online first opened its doors it was filled with
+                a lot of empty space, but today the shop offeres dozens of
+                different comic book titles, graphic novels, statues
+                and a whole lot more.
+            </p>
+        </section>
+        <section class="col-md-4" aria-labelledby="hostingTitle" style="margin-left: auto; margin-right: auto; padding-top: 16px; padding-bottom: -8px; box-shadow: 8px 8px 8px black; background-color: forestgreen; color: whitesmoke; width: 40%; border-radius: 10px;">
+            <p>
+                A quote from Aboobaker, "As a comic book store
+                we strive to give our customer variety from Superheros
+                to movies to music and collector's iems. If we do
+                not have it, we will try our best to try and find it for you".
+                <br /><br />
+                It just goes to show that with passion, determination
+                and a great community backing you, even small shops
+                in the most unlikely of places can thrive and grow into a
+                large scale collectible landmark.
+                <br /><br />
+                Remember folks, there's a hero inside Everyone!
+            </p>
+        </section>
+    </div>
+</main>
