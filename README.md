@@ -10,6 +10,7 @@ This is a basic Web App using ASP.NET application that includes publication to A
 - [MyFirstMVC](#myfirstmvc)
 - [Context](#context)
 - [Table of Contents](#table-of-contents)
+- [Overview](#overview)
 
 
 ## Overview
@@ -17,7 +18,7 @@ Web App using ASP.NET
 Imagine, You’re the owner of a startup organization that facilitates the sale of comics online around your area. To get your product to market as quickly as possible, you decided to use Microsoft Azure App Service to host your web apps and APIs. The following tasks need to be completed:
 
 
-### Task 1: Create a web app using ASP.NET In the Azure portal and deploy the web application to Web Apps- Using the information below:  
+## Task 1: Create a web app using ASP.NET In the Azure portal and deploy the web application to Web Apps- Using the information below:  
 - Home page – which must show all other tabs such as Location, Favourites, About Us, and Latest News  
 - All of your pages must have a footer with your name, student number, and the course you are enrolled in.  
 Screenshot of the Output: 
@@ -65,10 +66,11 @@ Like this:
 
 
 
+## Task 2: Deploy the web application to Azure Web Apps:  
 
 Publishing to Azure: Using Microsoft Azure App Service to host your web apps and APIs. 
-The steps and screenshots of the steps: 
-As we can see, the web application is currently running on our ‘localhost’: 
+<br> The steps and screenshots of the steps: 
+<br> As we can see, the web application is currently running on our ‘localhost’: 
 <br><br>  <img src="assets/images/MFMVC8.png" alt="MyFirstMVC image 8">
 
 
