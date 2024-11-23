@@ -63,7 +63,7 @@ Screenshot:
 
 ### Latest News Page
 - Links to external pages showing new comic releases.
-Screenshots:
+<br> Screenshots:
 <img src="assets/images/MFMVC5a.png" alt="MyFirstMVC image 5a">
 <img src="assets/images/MFMVC5b.png" alt="MyFirstMVC image 5b" width="605px">
 <img src="assets/images/MFMVC5c.png" alt="MyFirstMVC image 5c">
