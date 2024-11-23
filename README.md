@@ -1,9 +1,9 @@
 # MyFirstMVC
-This repository contains a my first MVC as well as publication to Azure
+This repository contains my first MVC web application and its deployment to Azure.
 
 
 ## Context
-This is a basic Web App using ASP.NET application that includes publication to Azure
+This project is a basic web app developed using ASP.NET MVC and deployed to Microsoft Azure App Service. It showcases a simple web solution for a comic book startup.
 
 
 ## Table of Contents
@@ -11,162 +11,151 @@ This is a basic Web App using ASP.NET application that includes publication to A
 - [Context](#context)
 - [Table of Contents](#table-of-contents)
 - [Overview](#overview)
+- [Features](#features)
+    - [Home Page](#home-page)
+    - [Location Page](#location-page)
+    - [Favorites Page](#favorites-page)
+    - [About Us Page](#about-us-page)
+    - [Latest News Page](#latest-news-page)
+- [Deployment to Azure](#deployment-to-azure) 
+    - [Preparation](#preparation)
+    - [Steps for Deployment](#steps-for-deployment)
+- [Deleting Azure Resources](#deleting-azure-resources)
 
 
 ## Overview
-Web App using ASP.NET  
-Imagine, You’re the owner of a startup organization that facilitates the sale of comics online around your area. To get your product to market as quickly as possible, you decided to use Microsoft Azure App Service to host your web apps and APIs. The following tasks need to be completed:
+The web app facilitates the sale of comics online in your area. Using Microsoft Azure App Service, this app provides an accessible and scalable solution for hosting. The following tasks were completed:  
+- Development of a web app with multiple pages.  
+- Deployment of the web app to Azure.  
+- Cleanup of Azure resources. 
 
 
-## Task 1: Create a web app using ASP.NET In the Azure portal and deploy the web application to Web Apps- Using the information below:  
-- Home page – which must show all other tabs such as Location, Favourites, About Us, and Latest News  
-- All of your pages must have a footer with your name, student number, and the course you are enrolled in.  
-Screenshot of the Output: 
-<br><br>  <img src="assets/images/MFMVC1.png" alt="MyFirstMVC image 1">
+## Features
+### Home Page
+- The home page links to other sections: **Location**, **Favorites**, **About Us**, and **Latest News**.  
+- Includes a footer with your name, student number, and course information.
+<br> Screenshot:
+<br> <img src="assets/images/MFMVC1.png" alt="MyFirstMVC image 1">
 
 
-Location Page  
-This page displays the geographic location of Comic bookstores in an area around you. Use Geolocation to add a Google Map with a Marker to Your Website a minimum of 5 comic book stores are required on your map.  
-Screenshot of the Output:
-<br><br>  <img src="assets/images/MFMVC2.png" alt="MyFirstMVC image 2">
+### Location Page
+- Displays the geographic locations of at least 5 nearby comic bookstores.
+- Integrated with Google Maps, showing store locations with markers.
+<br> Screenshot:
+<br> <img src="assets/images/MFMVC2.png" alt="MyFirstMVC image 2">
 
 
-Other Pages  
-1. Favorites: This page should display 4 of your favorite comics with a brief 
-explanation. Use your design for the look and feel of the page. This information 
-should be displayed once the Favorite button is clicked. 
-Screenshot of the Output:
-<br><br>  <img src="assets/images/MFMVC3a.png" alt="MyFirstMVC image 3a">
-<br>  <img src="assets/images/MFMVC3b.png" alt="MyFirstMVC image 3b" width="605px">
-<br>  <img src="assets/images/MFMVC3c.png" alt="MyFirstMVC image 3c" width="605px">
+### Favorites Page
+- Displays your four favorite comics with descriptions.
+- Information is revealed upon clicking the **Favorites** button.
+<br> Screenshots:
+<br> <img src="assets/images/MFMVC3a.png" alt="MyFirstMVC image 3a">
+<br> <img src="assets/images/MFMVC3b.png" alt="MyFirstMVC image 3b" width="605px">
+<br> <img src="assets/images/MFMVC3c.png" alt="MyFirstMVC image 3c" width="605px">
 
 
-2. About us: Include a brief explanation of your comic business. This information 
-should be displayed once the About Us button is clicked.  
-Screenshot of the Output:
-<br><br>  <img src="assets/images/MFMVC4.png" alt="MyFirstMVC image 4">
+### About Us Page
+- A brief description of the comic business.
+- Content appears when the **About Us** button is clicked.
+Screenshot:
+<br> <img src="assets/images/MFMVC4.png" alt="MyFirstMVC image 4">
 
 
-3. Latest News: Link the website to an external page to show information on the 
-new comic’s release. This information should be displayed once the Latest News 
-button is clicked.  
-Screenshot of the Output: 
-<br><br>  <img src="assets/images/MFMVC5a.png" alt="MyFirstMVC image 5a">
+### Latest News Page
+- Links to external pages showing new comic releases.
+Screenshots:
+<img src="assets/images/MFMVC5a.png" alt="MyFirstMVC image 5a">
 <br>  <img src="assets/images/MFMVC5b.png" alt="MyFirstMVC image 5b" width="605px">
 <br>  <img src="assets/images/MFMVC5c.png" alt="MyFirstMVC image 5c">
+- Content appears when the **Learn More** button is clicked.
+<br> Screenshot:
+<br> <img src="assets/images/MFMVC7.png" alt="MyFirstMVC image 7">
 
 
-When you click on one of the ‘Learn More’ buttons, it will redirect you to an external page:
-<br><br>  <img src="assets/images/MFMVC6.png" alt="MyFirstMVC image 6">
+## Deployment to Azure
+
+### Preparation
+Before deploying, ensure the web app runs locally:
+Screenshot:
+<img src="assets/images/MFMVC8.png" alt="MyFirstMVC image 8">
 
 
-Like this:
-<br><br>  <img src="assets/images/MFMVC7.png" alt="MyFirstMVC image 7">
+### Steps for Deployment
+1. **Publish from Visual Studio**
+   - Right-click the project and select **Publish**.
+   Screenshot:
+   <br> <img src="assets/images/MFMVC11.png" alt="MyFirstMVC image 11">
 
 
+2. **Choose Azure**
+   - Select **Azure App Service (Windows)** and log in.
+   Screenshot:
+   <img src="assets/images/MFMVC12.png" alt="MyFirstMVC image 12">
 
 
-## Task 2: Deploy the web application to Azure Web Apps:  
-
-Publishing to Azure: Using Microsoft Azure App Service to host your web apps and APIs. 
-<br> The steps and screenshots of the steps: 
-<br> As we can see, the web application is currently running on our ‘localhost’: 
-<br><br>  <img src="assets/images/MFMVC8.png" alt="MyFirstMVC image 8">
+3. **Create App Service**
+   - Provide a name and let Azure set up the hosting environment.
+   Screenshot:
+   <br> <img src="assets/images/MFMVC15.png" alt="MyFirstMVC image 15">
 
 
-1.1. So in order to host our Web Application in Microsoft Azure, the first thing 
-would be to open up Visual Studio and open our Web Application MVC. 
-<br><br>  <img src="assets/images/MFMVC9.png" alt="MyFirstMVC image 9">
+4. **Publish the App**
+   - Click **Publish** to deploy the web app to Azure.
+   Screenshot:
+   <br> <img src="assets/images/MFMVC19.png" alt="MyFirstMVC image 19">
 
 
-1.2. Right click on the MVC Application: 
-<br><br>  <img src="assets/images/MFMVC10.png" alt="MyFirstMVC image 10">
+5. **Access the App**
+   - Use the Azure-generated URL to view your live web app.
+   Screenshot:
+   <br> <img src="assets/images/MFMVC22.png" alt="MyFirstMVC image 22">
 
 
-1.3. Click on ‘Publish…’: 
-<br><br>  <img src="assets/images/MFMVC11.png" alt="MyFirstMVC image 11">
+6. **Success**
+   - Hosted live web app.
+   Screenshot:
+   <br> <img src="assets/images/MFMVC23.png" alt="MyFirstMVC image 23">
 
 
-1.4. Select ‘Azure’ and click ‘Next’: 
-<br><br>  <img src="assets/images/MFMVC12.png" alt="MyFirstMVC image 12">
+## Deleting Azure Resources
+
+1. **Log in to Azure Portal**
+   Navigate to the **Resource Groups** section.
+   Screenshot:
+   <br> <img src="assets/images/MFMVC25.png" alt="MyFirstMVC image 25">
 
 
-1.5. Select ‘Azure App Service (Windows)’ and click ‘Next’: 
-<br><br>  <img src="assets/images/MFMVC13.png" alt="MyFirstMVC image 13">
+2. **Identify the Resource Group**
+   Locate the resource group containing your deployed web application.
+   <br> Screenshot:
+   <br> <img src="assets/images/MFMVC26.png" alt="MyFirstMVC image 26">
 
 
-1.6. Choose the account to which you want to publish the Web Application to and if there is no Azure App Service already created, click on ‘+ Create new’: 
-<br><br>  <img src="assets/images/MFMVC14.png" alt="MyFirstMVC image 14">
+3. **Open Cloud Shell**
+   - Click on the **Cloud Shell** icon in the top-right corner of the Azure Portal.
+   - Once the shell opens, select the **PowerShell** environment.
+   <br> Screenshot:
+   <br> <img src="assets/images/MFMVC27.png" alt="MyFirstMVC image 27">
 
 
-1.7. This is the window that creates the App Service in Azure. You can provide a name; and the resource group and hosting plan is created automatically. Then 
-click ‘Create’: 
-<br><br>  <img src="assets/images/MFMVC15.png" alt="MyFirstMVC image 15">
+4. **Run the Deletion Command**
+   Use the following command to remove the resource group:
+   ```powershell
+   Remove-AzResourceGroup -Name {ResourceGroupName}
+   ```
+   Replace `{ResourceGroupName}` with the actual name of the resource group you want to delete.
+   <br> Screenshot:
+   <br> <img src="assets/images/MFMVC28.png" alt="MyFirstMVC image 28">
 
 
-1.8. The App Service is now being created: 
-<br><br>  <img src="assets/images/MFMVC16.png" alt="MyFirstMVC image 16">
+4. **Confirm Deletion**
+    - Type `Y` to confirm the deletion when prompted and press `Enter`.
+    - Wait for Azure to remove all associated resources.
+    <br> Screenshot:
+    <br> <img src="assets/images/MFMVC29.png" alt="MyFirstMVC image 29">
 
 
-1.9. Once the App Service has been created successfully click ‘Finish’: 
-<br><br>  <img src="assets/images/MFMVC17.png" alt="MyFirstMVC image 17">
-
-
-1.10. The Publish Profile has also been created successfully. Click ‘Close’: 
-<br><br>  <img src="assets/images/MFMVC18.png" alt="MyFirstMVC image 18">
-
-
-
-2.1. The Web Application MVC is now ready to publish. Click on ‘Publish’: 
-<br><br>  <img src="assets/images/MFMVC19.png" alt="MyFirstMVC image 19">
-
-
-2.2. The Web Application is now being published to Azure App Service: 
-<br><br>  <img src="assets/images/MFMVC20.png" alt="MyFirstMVC image 20">
-
-
-2.3. Once the Web Application has been published successfully, you can Copy the Link/Site URL to the clipboard: 
-<br><br>  <img src="assets/images/MFMVC21.png" alt="MyFirstMVC image 21">
-
-
-2.4. Paste the Link/Site URL in the URL of your browser and hit ‘Enter’: 
-<br><br>  <img src="assets/images/MFMVC22.png" alt="MyFirstMVC image 22">
-
-
-2.5. The Web Application has now been hosted successfully on Azure Web App Service and is live. The Web Application is no longer running on the ‘localhost’: 
-<br><br>  <img src="assets/images/MFMVC23.png" alt="MyFirstMVC image 23">
-
-
-
-3.1. Now sign in to your Azure Portal:
-<br><br>  <img src="assets/images/MFMVC24.png" alt="MyFirstMVC image 24">
-
-
-3.2. Click on ‘Resource Groups’: 
-<br><br>  <img src="assets/images/MFMVC25.png" alt="MyFirstMVC image 25">
-
-
-3.3. This is the Resource Group that contains the Web Application that we just published: 
-<br><br>  <img src="assets/images/MFMVC26.png" alt="MyFirstMVC image 26">
-
-
-3.4. Now on the top right-hand corner, click on the Cloud Shell icon. Once the Cloud Shell has opened up, type in this command: 
-`Remove-AzResourceGroup -Name {name of the resource group}`: 
-<br><br>  <img src="assets/images/MFMVC27.png" alt="MyFirstMVC image 27">
-
-
-3.5. Type ‘Y’ to confirm removing/deleting the Resource Group then hit ‘Enter’: 
-<br><br>  <img src="assets/images/MFMVC28.png" alt="MyFirstMVC image 28">
-
-
-3.6. The Resource Group has now been removed/deleted successfully: 
-<br><br>  <img src="assets/images/MFMVC29.png" alt="MyFirstMVC image 29">
-
-
-3.8. You can also refresh the ‘Resource Groups’ page to confirm that the Resource Group has been removed/deleted successfully: 
-<br><br>  <img src="assets/images/MFMVC30.png" alt="MyFirstMVC image 30">
-
-
-
-4.1. Finally, you can click the ‘x’ icon to close all the active applications: 
-<br><br>  <img src="assets/images/MFMVC31.png" alt="MyFirstMVC image 31">
+5. **Verify Resource Deletion**
+    - Refresh the **Resource Groups** page to ensure the group has been deleted.
+    <br> Screenshot:
+    <br> <img src="assets/images/MFMVC30.png" alt="MyFirstMVC image 30">
