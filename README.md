@@ -77,20 +77,20 @@ The web app facilitates the sale of comics online in your area. Using Microsoft 
 
 ### Preparation
 Before deploying, ensure the web app runs locally:
-Screenshot:
+<br> Screenshot:
 <img src="assets/images/MFMVC8.png" alt="MyFirstMVC image 8">
 
 
 ### Steps for Deployment
 1. **Publish from Visual Studio**
    - Right-click the project and select **Publish**.
-   Screenshot:
+   <br> Screenshot:
    <br> <img src="assets/images/MFMVC11.png" alt="MyFirstMVC image 11">
 
 
 2. **Choose Azure**
    - Select **Azure App Service (Windows)** and log in.
-   Screenshot:
+   <br> Screenshot:
    <img src="assets/images/MFMVC12.png" alt="MyFirstMVC image 12">
 
 
@@ -102,19 +102,19 @@ Screenshot:
 
 4. **Publish the App**
    - Click **Publish** to deploy the web app to Azure.
-   Screenshot:
+   <br> Screenshot:
    <br> <img src="assets/images/MFMVC19.png" alt="MyFirstMVC image 19">
 
 
 5. **Access the App**
    - Use the Azure-generated URL to view your live web app.
-   Screenshot:
+   <br> Screenshot:
    <br> <img src="assets/images/MFMVC22.png" alt="MyFirstMVC image 22">
 
 
 6. **Success**
    - Hosted live web app.
-   Screenshot:
+   <br> Screenshot:
    <br> <img src="assets/images/MFMVC23.png" alt="MyFirstMVC image 23">
 
 
@@ -122,7 +122,7 @@ Screenshot:
 
 1. **Log in to Azure Portal**
    Navigate to the **Resource Groups** section.
-   Screenshot:
+   <br> Screenshot:
    <br> <img src="assets/images/MFMVC25.png" alt="MyFirstMVC image 25">
 
 
