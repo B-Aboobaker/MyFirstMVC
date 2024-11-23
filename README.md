@@ -63,8 +63,7 @@ The web app facilitates the sale of comics online in your area. Using Microsoft 
 
 ### Latest News Page
 - Links to external pages showing new comic releases.
-<br> Screenshots:
-<img src="assets/images/MFMVC5a.png" alt="MyFirstMVC image 5a">
+<br> Screenshots: <br> <img src="assets/images/MFMVC5a.png" alt="MyFirstMVC image 5a">
 <img src="assets/images/MFMVC5b.png" alt="MyFirstMVC image 5b" width="605px">
 <img src="assets/images/MFMVC5c.png" alt="MyFirstMVC image 5c">
 
