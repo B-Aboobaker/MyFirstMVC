@@ -89,8 +89,7 @@ Before deploying, ensure the web app runs locally:
 
 2. **Choose Azure**
    - Select **Azure App Service (Windows)** and log in.
-   <br> Screenshot:
-   <img src="assets/images/MFMVC12.png" alt="MyFirstMVC image 12">
+   <br> Screenshot: <br> <img src="assets/images/MFMVC12.png" alt="MyFirstMVC image 12">
 
 
 3. **Create App Service**
