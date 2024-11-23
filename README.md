@@ -78,7 +78,7 @@ The web app facilitates the sale of comics online in your area. Using Microsoft 
 ### Preparation
 Before deploying, ensure the web app runs locally:
 <br> Screenshot:
-<img src="assets/images/MFMVC8.png" alt="MyFirstMVC image 8">
+<br> <img src="assets/images/MFMVC8.png" alt="MyFirstMVC image 8">
 
 
 ### Steps for Deployment
@@ -96,7 +96,7 @@ Before deploying, ensure the web app runs locally:
 
 3. **Create App Service**
    - Provide a name and let Azure set up the hosting environment.
-   Screenshot:
+   <br> Screenshot:
    <br> <img src="assets/images/MFMVC15.png" alt="MyFirstMVC image 15">
 
 
