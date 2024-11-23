@@ -140,11 +140,11 @@ Before deploying, ensure the web app runs locally:
 
 
 4. **Run the Deletion Command**
-   Use the following command to remove the resource group:
+   - Use the following command to remove the resource group:
    ```powershell
    Remove-AzResourceGroup -Name {ResourceGroupName}
    ```
-   Replace `{ResourceGroupName}` with the actual name of the resource group you want to delete.
+   - Replace `{ResourceGroupName}` with the actual name of the resource group you want to delete.
    <br> Screenshot:
    <br> <img src="assets/images/MFMVC28.png" alt="MyFirstMVC image 28">
 
