@@ -1,9 +1,9 @@
 # MyFirstMVC
-This repository contains my first MVC web application and its deployment to Azure.
+This repository contains my first ASP.NET MVC web application, showcasing its development process and deployment to Microsoft Azure App Service.
 
 
 ## Context
-This project is a basic web app developed using ASP.NET MVC and deployed to Microsoft Azure App Service. It showcases a simple web solution for a comic book startup.
+This project demonstrates the creation of a basic web application using the ASP.NET MVC framework. The application is tailored for a fictional comic book startup, offering an online platform to manage and showcase comic-related content. Additionally, the project highlights the process of deploying the web app to Microsoft Azure App Service, leveraging its scalability and accessibility for cloud hosting.
 
 
 ## Table of Contents
@@ -25,9 +25,9 @@ This project is a basic web app developed using ASP.NET MVC and deployed to Micr
 
 ## Overview
 The web app facilitates the sale of comics online in your area. Using Microsoft Azure App Service, this app provides an accessible and scalable solution for hosting. The following tasks were completed:  
-- Development of a web app with multiple pages.  
-- Deployment of the web app to Azure.  
-- Cleanup of Azure resources. 
+- **Web App Development**: Created using ASP.NET MVC, the application includes pages such as a home page, location page with geolocation integration, a favorites page, and sections for latest news and business information.  
+- **Azure Deployment**: Demonstrates the steps to publish the web app to Azure App Service, making it live and accessible online.  
+- **Resource Management**: Includes guidelines for managing Azure resources post-deployment, ensuring proper cleanup and cost optimization.  
 
 
 ## Features
