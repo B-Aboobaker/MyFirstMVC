@@ -57,7 +57,7 @@ The web app facilitates the sale of comics online in your area. Using Microsoft 
 ### About Us Page
 - A brief description of the comic business.
 - Content appears when the **About Us** button is clicked.
-Screenshot:
+<br> Screenshot:
 <br> <img src="assets/images/MFMVC4.png" alt="MyFirstMVC image 4">
 
 
