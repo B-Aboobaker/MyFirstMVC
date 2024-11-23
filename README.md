@@ -65,8 +65,9 @@ Screenshot:
 - Links to external pages showing new comic releases.
 Screenshots:
 <img src="assets/images/MFMVC5a.png" alt="MyFirstMVC image 5a">
-<br>  <img src="assets/images/MFMVC5b.png" alt="MyFirstMVC image 5b" width="605px">
-<br>  <img src="assets/images/MFMVC5c.png" alt="MyFirstMVC image 5c">
+<img src="assets/images/MFMVC5b.png" alt="MyFirstMVC image 5b" width="605px">
+<img src="assets/images/MFMVC5c.png" alt="MyFirstMVC image 5c">
+
 - Content appears when the **Learn More** button is clicked.
 <br> Screenshot:
 <br> <img src="assets/images/MFMVC7.png" alt="MyFirstMVC image 7">
